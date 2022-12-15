@@ -8,7 +8,7 @@ export const LoginHeader = ({ email }) => {
     <Wrapper>
       <Text>Welcome, {email}</Text>
       <ButtonLogOut type="button" onClick={() => dispatch(logOut())}>
-        Logout
+        Log out
       </ButtonLogOut>
     </Wrapper>
   );
